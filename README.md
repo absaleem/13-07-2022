@@ -17,7 +17,11 @@ console.log(i,arr1[i]);
 
 
 2) Create your own resume data in JSON format
-var arr=[{name:"Abdul Saleem",age:"34",gender:"Male",email:"saleem.mcstn@gmail.com",education:"MCA (2010 –2012), Bsc-CS (2005-2008)",tools:"HTML,CSS,JAVASCRIPT,JSON,ARRAY"}];
+var arr=[{name:"Abdul Saleem",age:"34",gender:"Male",email:"saleem.mcstn@gmail.com",education:"MCA (2010 –2012), Bsc-CS (2005-2008)",tools:"HTML,CSS,JAVASCRIPT,JSON,ARRAY",expereince:"Professional experience in Web application development, architecture, optimization, design, maintenance, testing, and support.
+•	Lead teams in the design of new applications.
+•	Extensive knowledge and on-hands experience in information architecture, project management.
+•	Proven background in large-scale enterprise application implementations. Well Communication with analytical, interpersonal skills and working in a team-oriented environment. Rapidly adapts to new technologies, standards and ideas.
+"}];
 for(var i=0;i<arr.length;i++){
 console.log("Name: "+arr[i].name+", Age: "+arr[i].age+", Gender: "+arr[i].gender+", Email: "+arr[i].email+", Education: "+arr[i].education+", Tools used: "+arr[i].tools);
 }
