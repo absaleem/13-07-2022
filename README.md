@@ -23,7 +23,7 @@ var arr=[{name:"Abdul Saleem",age:"34",gender:"Male",email:"saleem.mcstn@gmail.c
 •	Proven background in large-scale enterprise application implementations. Well Communication with analytical, interpersonal skills and working in a team-oriented environment. Rapidly adapts to new technologies, standards and ideas.
 "}];
 for(var i=0;i<arr.length;i++){
-console.log("Name: "+arr[i].name+", Age: "+arr[i].age+", Gender: "+arr[i].gender+", Email: "+arr[i].email+", Education: "+arr[i].education+", Tools used: "+arr[i].tools);
+console.log("Name: "+arr[i].name+", Age: "+arr[i].age+", Gender: "+arr[i].gender+", Email: "+arr[i].email+", Education: "+arr[i].education+", Tools used: "+arr[i].tools+", Experience:"+arr[i].expereince);
 }
 
 
